@@ -1,39 +1,38 @@
-# SQL Ecommerce Analysis Project
+# SQL Ecommerce Analysis
 
-## 📌 Business Problem
-An ecommerce company wants to analyze its sales performance, customer behavior, and product profitability to support data-driven business decisions.
+## Overview
+This project analyzes ecommerce sales data to understand revenue performance, customer spending behavior, and product profitability using SQL.
 
-## 🛠 Tools Used
+## Tools
 - MySQL
-- SQL (Joins, Aggregations, Group By, Date Functions)
+- SQL
 
-## 📊 Analysis Performed
+## Analysis
 - Total revenue calculation
-- Revenue breakdown by product category
-- Identification of top customers by total spend
-- Monthly revenue trend analysis
-- Product-level profit analysis
+- Revenue by product category
+- Top customers by total spend
+- Monthly revenue trend
+- Profit analysis per product
 
-## 🔍 Key Insights
-- Electronics is the highest revenue-generating category, driven primarily by laptop and smartphone sales.
-- A small group of customers contributes a significant portion of total revenue, highlighting the importance of high-value customers.
-- Monthly revenue shows an upward trend from January to March, indicating steady growth in sales activity.
-- High-selling products are not always the most profitable, emphasizing the need to balance pricing and cost strategies.
+## Key Insights
+- Electronics is the highest revenue-generating category.
+- A small number of customers contribute a large share of total revenue.
+- Monthly revenue increases steadily from January to March.
+- Some high-selling products generate lower profit margins.
 
-## 💡 Business Recommendations
-- Focus marketing and inventory efforts on high-performing electronics while optimizing costs to improve margins.
-- Introduce loyalty programs for top customers to increase retention and lifetime value.
-- Review pricing and sourcing strategies for low-margin products to improve overall profitability.
+## Business Recommendations
+- Prioritize high-revenue product categories while improving cost efficiency.
+- Retain high-value customers through targeted loyalty strategies.
+- Re-evaluate pricing and costs for low-margin products.
 
-## 📁 Project Structure
-- SQL-Ecommerce-Analysis/
-    ├── schema.sql      # Database schema and table creation
-    ├── data.sql        # Sample ecommerce data
-    ├── queries.sql     # SQL queries for business analysis
-    └── README.md       # Project overview and insights
-  
-## ▶️ How to Run
-1. Execute `schema.sql` to create database and tables
-2. Run `data.sql` to insert sample data
-3. Execute queries from `queries.sql` to generate insights
+## Project Structure
+SQL-Ecommerce-Analysis/
+├── schema.sql
+├── data.sql
+├── queries.sql
+└── README.md
 
+## How to Run
+1. Run `schema.sql` to create tables
+2. Run `data.sql` to load data
+3. Execute queries from `queries.sql`
