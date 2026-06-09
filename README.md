@@ -41,8 +41,6 @@ The dataset contains:
 - Customer Performance Analysis
 - Dynamic Filters for City, Category, Month, and Year
 
-## Dashboard Preview
-![Dashboard](dashboard_screenshots/dashboard.png)
 
 ## Key Insights
 - Electronics generated the highest revenue.
