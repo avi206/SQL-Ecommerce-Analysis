@@ -1,12 +1,14 @@
 # SQL E-Commerce Data Analysis & Power BI Dashboard
 
-## Project Overview
+##  Project Overview
+
 This project analyzes an e-commerce dataset using SQL and Power BI to uncover sales trends, customer behavior, and business performance metrics.
 
 The project demonstrates the complete analytics workflow:
-- Data extraction and analysis using SQL
-- KPI calculation and business insights
-- Interactive dashboard creation using Power BI
+
+* Data extraction and analysis using SQL
+* KPI calculation and business insights
+* Interactive dashboard creation using Power BI
 
 ##  Project Workflow
 
@@ -17,62 +19,33 @@ The project demonstrates the complete analytics workflow:
 5. **Power BI Dashboard** – Connected the data to Power BI and built an interactive dashboard.
 6. **Business Insights** – Identified revenue trends, top-performing categories, products, and customers.
 
-## Tools Used
-- MySQL
-- SQL (JOINs, GROUP BY, Aggregations)
-- Power BI
-- Data Analysis Techniques
+##  Tools Used
 
-## Dataset
+* MySQL
+* SQL (JOINs, GROUP BY, Aggregations)
+* Power BI
+* Data Analysis Techniques
+
+##  Dataset
+
 The dataset contains:
-- Customers
-- Orders
-- Products
-- Sales Transactions
 
-## Key Business Questions Answered
+* Customers
+* Orders
+* Products
+* Sales Transactions
+
+##  Key Business Questions Answered
+
 1. Which product categories generate the highest revenue?
 2. Which products contribute most to sales?
 3. What are the monthly revenue trends?
 4. Who are the top customers by revenue?
 5. How does performance vary across categories?
 
-##  Dashboard KPIs
-
-- **Total Revenue:** ₹190.9K
-- **Total Profit:** ₹33.4K
-- **Total Orders:** 5
-- **Average Order Value:** ₹38.2K
-
-## Dashboard Features
-- Revenue Trend Analysis
-- Category-wise Revenue Analysis
-- Top Products by Revenue
-- Customer Performance Analysis
-- Dynamic Filters for City, Category, Month, and Year
-
-## SQL Analysis
+##  SQL Analysis
 
 The project uses SQL to answer key business questions across sales, customers, products, and profitability.
-
-##  Power BI Dashboard
-
-The analyzed data was used to build an interactive Power BI dashboard for tracking sales performance and customer behavior.
-
-### Dashboard KPIs
-
-- **Total Revenue:** ₹190.9K
-- **Total Profit:** ₹33.4K
-- **Total Orders:** 5
-- **Average Order Value:** ₹38.2K
-
-### Dashboard Features
-
-- Revenue trend by month
-- Revenue by product category
-- Top products by revenue
-- Top customers by revenue
-- Filters for year, month, category, and city
 
 ### Queries Performed
 
@@ -84,22 +57,45 @@ The analyzed data was used to build an interactive Power BI dashboard for tracki
 
 ### SQL Techniques Used
 
-- `JOIN` for combining customers, orders, order items, and products
-- `SUM()` for revenue, spending, and profit calculations
-- `GROUP BY` for category, customer, product, and monthly analysis
-- `ORDER BY` for ranking customers by spending
-- `WHERE` for filtering completed orders
-- `DATE_FORMAT()` for monthly revenue analysis
-- Calculated expressions for revenue and profit
+* `JOIN` for combining customers, orders, order items, and products
+* `SUM()` for revenue, spending, and profit calculations
+* `GROUP BY` for category, customer, product, and monthly analysis
+* `ORDER BY` for ranking customers by spending
+* `WHERE` for filtering completed orders
+* `DATE_FORMAT()` for monthly revenue analysis
+* Calculated expressions for revenue and profit
 
 The complete SQL queries are available in [`queries.sql`](queries.sql).
 
-## Key Insights
+##  Power BI Dashboard
 
-- **Electronics** generated the highest revenue among the product categories.
-- **Laptops and smartphones** were the top-performing products by revenue.
-- **March** recorded the highest monthly revenue in the analyzed period.
-- A **small number of customers** accounted for a significant portion of total revenue.
+The analyzed data was used to build an interactive Power BI dashboard for tracking sales performance and customer behavior.
+
+### Dashboard KPIs
+
+* **Total Revenue:** ₹190.9K
+* **Total Profit:** ₹33.4K
+* **Total Orders:** 5
+* **Average Order Value:** ₹38.2K
+
+### Dashboard Features
+
+* Revenue trend by month
+* Revenue by product category
+* Top products by revenue
+* Top customers by revenue
+* Filters for year, month, category, and city
+
+### Dashboard Preview
+
+![E-Commerce Power BI Dashboard](Dashboard.png)
+
+##  Key Insights
+
+* **Electronics** generated the highest revenue among the product categories.
+* **Laptops and smartphones** were the top-performing products by revenue.
+* **March** recorded the highest monthly revenue in the analyzed period.
+* A **small number of customers** accounted for a significant portion of total revenue.
 
 ##  Repository Structure
 
@@ -110,4 +106,17 @@ SQL-Ecommerce-Analysis/
 ├── data.sql
 ├── queries.sql
 ├── Dashboard.png
-└── README.md 
+└── README.md
+```
+
+###  File Description
+
+| File            | Description                                             |
+| --------------- | ------------------------------------------------------- |
+| `schema.sql`    | Creates the database tables and structure               |
+| `data.sql`      | Contains the project data and data insertion statements |
+| `queries.sql`   | SQL queries used for analysis                           |
+| `Dashboard.png` | Power BI dashboard screenshot                           |
+| `README.md`     | Project documentation                                   |
+
+```
