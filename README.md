@@ -61,11 +61,12 @@ The dataset contains:
 4. Who are the top customers by revenue?
 5. How does performance vary across categories?
 
-## Dashboard KPIs
-- Total Revenue: ₹190.9K
-- Total Profit: ₹33.4K
-- Total Orders: 5
-- Average Order Value: ₹38.2K
+##  Dashboard KPIs
+
+- **Total Revenue:** ₹190.9K
+- **Total Profit:** ₹33.4K
+- **Total Orders:** 5
+- **Average Order Value:** ₹38.2K
 
 ## Dashboard Features
 - Revenue Trend Analysis
