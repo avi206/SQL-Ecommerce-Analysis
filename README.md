@@ -23,16 +23,27 @@ The project demonstrates the complete analytics workflow:
 - Power BI
 - Data Analysis Techniques
 
-## SQL Analysis
+## 🔍 SQL Analysis
 
-The SQL analysis uses:
+The project uses SQL to answer key business questions across sales, customers, products, and profitability.
 
-- INNER JOINs and relational table connections
-- GROUP BY and aggregate functions
-- Revenue and profit calculations
-- Customer-level analysis
-- Product and category analysis
-- Monthly sales trend analysis
+### Queries Performed
+
+1. **Total Revenue** – Calculated revenue from completed orders.
+2. **Revenue by Category** – Compared revenue across product categories.
+3. **Top Customers** – Ranked customers by total spending.
+4. **Monthly Revenue Trend** – Analyzed revenue by month.
+5. **Profit per Product** – Calculated profit for each product using selling price and product cost.
+
+### SQL Techniques Used
+
+- `JOIN` for combining customers, orders, order items, and products
+- `SUM()` for revenue, spending, and profit calculations
+- `GROUP BY` for category, customer, product, and monthly analysis
+- `ORDER BY` for ranking customers by spending
+- `WHERE` for filtering completed orders
+- `DATE_FORMAT()` for monthly revenue analysis
+- Calculated expressions for revenue and profit
 
 The complete SQL queries are available in [`queries.sql`](queries.sql).
 
