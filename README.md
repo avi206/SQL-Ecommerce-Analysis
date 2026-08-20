@@ -59,10 +59,11 @@ The dataset contains:
 ![E-Commerce Power BI Dashboard](Dashboard.png)
 
 ## Key Insights
-- Electronics generated the highest revenue.
-- Laptops and smartphones were the top-performing products.
-- Revenue increased significantly in March.
-- A small number of customers contributed a large share of total revenue.
+
+- **Electronics** generated the highest revenue among the product categories.
+- **Laptops and smartphones** were the top-performing products by revenue.
+- **March** recorded the highest monthly revenue in the analyzed period.
+- A **small number of customers** accounted for a significant portion of total revenue.
 
 ## Repository Structure
 ├── SQL Queries
