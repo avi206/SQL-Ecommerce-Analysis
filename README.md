@@ -45,7 +45,7 @@ The dataset contains:
 
 ##  SQL Analysis
 
-The project uses SQL to answer key business questions across sales, customers, products, and profitability.
+The project uses SQL to analyze sales, customers, products, revenue, and profitability.
 
 ### Queries Performed
 
@@ -92,10 +92,10 @@ The analyzed data was used to build an interactive Power BI dashboard for tracki
 
 ##  Key Insights
 
-* **Electronics** generated the highest revenue among the product categories.
-* **Laptops and smartphones** were the top-performing products by revenue.
-* **March** recorded the highest monthly revenue in the analyzed period.
-* A **small number of customers** accounted for a significant portion of total revenue.
+- **Electronics** generated the highest revenue among the product categories.
+- **Laptops and smartphones** were the top-performing products by revenue.
+- **March** recorded the highest monthly revenue in the analyzed period.
+- A **small number of customers** accounted for a significant portion of total revenue.
 
 ##  Repository Structure
 
@@ -107,16 +107,5 @@ SQL-Ecommerce-Analysis/
 ├── queries.sql
 ├── Dashboard.png
 └── README.md
-```
-
-###  File Description
-
-| File            | Description                                             |
-| --------------- | ------------------------------------------------------- |
-| `schema.sql`    | Creates the database tables and structure               |
-| `data.sql`      | Contains the project data and data insertion statements |
-| `queries.sql`   | SQL queries used for analysis                           |
-| `Dashboard.png` | Power BI dashboard screenshot                           |
-| `README.md`     | Project documentation                                   |
 
 ```
