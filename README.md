@@ -41,6 +41,9 @@ The dataset contains:
 - Customer Performance Analysis
 - Dynamic Filters for City, Category, Month, and Year
 
+##  Power BI Dashboard
+
+![E-Commerce Power BI Dashboard](Dashboard.png)
 
 ## Key Insights
 - Electronics generated the highest revenue.
