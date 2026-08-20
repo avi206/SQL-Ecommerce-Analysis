@@ -8,6 +8,15 @@ The project demonstrates the complete analytics workflow:
 - KPI calculation and business insights
 - Interactive dashboard creation using Power BI
 
+##  Project Workflow
+
+1. **Database Setup** – Created the e-commerce database and tables using `schema.sql`.
+2. **Data Loading** – Loaded the dataset using `data.sql`.
+3. **SQL Analysis** – Used SQL queries to analyze sales, customers, products, revenue, and profit.
+4. **KPI Analysis** – Calculated key business metrics such as total revenue, profit, orders, and average order value.
+5. **Power BI Dashboard** – Connected the data to Power BI and built an interactive dashboard.
+6. **Business Insights** – Identified revenue trends, top-performing categories, products, and customers.
+
 ## Tools Used
 - MySQL
 - SQL (JOINs, GROUP BY, Aggregations)
