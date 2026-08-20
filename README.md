@@ -27,6 +27,25 @@ The project demonstrates the complete analytics workflow:
 
 The project uses SQL to answer key business questions across sales, customers, products, and profitability.
 
+##  Power BI Dashboard
+
+The analyzed data was used to build an interactive Power BI dashboard for tracking sales performance and customer behavior.
+
+### Dashboard KPIs
+
+- **Total Revenue:** ₹190.9K
+- **Total Profit:** ₹33.4K
+- **Total Orders:** 5
+- **Average Order Value:** ₹38.2K
+
+### Dashboard Features
+
+- Revenue trend by month
+- Revenue by product category
+- Top products by revenue
+- Top customers by revenue
+- Filters for year, month, category, and city
+
 ### Queries Performed
 
 1. **Total Revenue** – Calculated revenue from completed orders.
