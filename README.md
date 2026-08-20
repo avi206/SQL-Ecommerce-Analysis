@@ -23,6 +23,34 @@ The project demonstrates the complete analytics workflow:
 - Power BI
 - Data Analysis Techniques
 
+## Dataset
+The dataset contains:
+- Customers
+- Orders
+- Products
+- Sales Transactions
+
+## Key Business Questions Answered
+1. Which product categories generate the highest revenue?
+2. Which products contribute most to sales?
+3. What are the monthly revenue trends?
+4. Who are the top customers by revenue?
+5. How does performance vary across categories?
+
+##  Dashboard KPIs
+
+- **Total Revenue:** ₹190.9K
+- **Total Profit:** ₹33.4K
+- **Total Orders:** 5
+- **Average Order Value:** ₹38.2K
+
+## Dashboard Features
+- Revenue Trend Analysis
+- Category-wise Revenue Analysis
+- Top Products by Revenue
+- Customer Performance Analysis
+- Dynamic Filters for City, Category, Month, and Year
+
 ## SQL Analysis
 
 The project uses SQL to answer key business questions across sales, customers, products, and profitability.
@@ -65,38 +93,6 @@ The analyzed data was used to build an interactive Power BI dashboard for tracki
 - Calculated expressions for revenue and profit
 
 The complete SQL queries are available in [`queries.sql`](queries.sql).
-
-## Dataset
-The dataset contains:
-- Customers
-- Orders
-- Products
-- Sales Transactions
-
-## Key Business Questions Answered
-1. Which product categories generate the highest revenue?
-2. Which products contribute most to sales?
-3. What are the monthly revenue trends?
-4. Who are the top customers by revenue?
-5. How does performance vary across categories?
-
-##  Dashboard KPIs
-
-- **Total Revenue:** ₹190.9K
-- **Total Profit:** ₹33.4K
-- **Total Orders:** 5
-- **Average Order Value:** ₹38.2K
-
-## Dashboard Features
-- Revenue Trend Analysis
-- Category-wise Revenue Analysis
-- Top Products by Revenue
-- Customer Performance Analysis
-- Dynamic Filters for City, Category, Month, and Year
-
-##  Power BI Dashboard
-
-![E-Commerce Power BI Dashboard](Dashboard.png)
 
 ## Key Insights
 
