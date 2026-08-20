@@ -14,6 +14,19 @@ The project demonstrates the complete analytics workflow:
 - Power BI
 - Data Analysis Techniques
 
+## 🔍 SQL Analysis
+
+The SQL analysis uses:
+
+- INNER JOINs and relational table connections
+- GROUP BY and aggregate functions
+- Revenue and profit calculations
+- Customer-level analysis
+- Product and category analysis
+- Monthly sales trend analysis
+
+The complete SQL queries are available in [`queries.sql`](queries.sql).
+
 ## Dataset
 The dataset contains:
 - Customers
