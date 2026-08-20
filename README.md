@@ -65,9 +65,13 @@ The dataset contains:
 - **March** recorded the highest monthly revenue in the analyzed period.
 - A **small number of customers** accounted for a significant portion of total revenue.
 
-## Repository Structure
-├── SQL Queries
-├── Dataset
-├── Power BI Dashboard (.pbix)
-├── Dashboard Screenshots
-└── README.md
+##  Repository Structure
+
+```text
+SQL-Ecommerce-Analysis/
+│
+├── schema.sql
+├── data.sql
+├── queries.sql
+├── Dashboard.png
+└── README.md 
