@@ -23,7 +23,7 @@ The project demonstrates the complete analytics workflow:
 - Power BI
 - Data Analysis Techniques
 
-## 🔍 SQL Analysis
+## SQL Analysis
 
 The project uses SQL to answer key business questions across sales, customers, products, and profitability.
 
