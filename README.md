@@ -1,111 +1,127 @@
 # SQL E-Commerce Data Analysis & Power BI Dashboard
 
-##  Project Overview
-
-This project analyzes an e-commerce dataset using SQL and Power BI to uncover sales trends, customer behavior, and business performance metrics.
-
-The project demonstrates the complete analytics workflow:
-
-* Data extraction and analysis using SQL
-* KPI calculation and business insights
-* Interactive dashboard creation using Power BI
-
-##  Project Workflow
-
-1. **Database Setup** – Created the e-commerce database and tables using `schema.sql`.
-2. **Data Loading** – Loaded the dataset using `data.sql`.
-3. **SQL Analysis** – Used SQL queries to analyze sales, customers, products, revenue, and profit.
-4. **KPI Analysis** – Calculated key business metrics such as total revenue, profit, orders, and average order value.
-5. **Power BI Dashboard** – Connected the data to Power BI and built an interactive dashboard.
-6. **Business Insights** – Identified revenue trends, top-performing categories, products, and customers.
-
-##  Tools Used
-
-* MySQL
-* SQL (JOINs, GROUP BY, Aggregations)
-* Power BI
-* Data Analysis Techniques
-
-##  Dataset
-
-The dataset contains:
-
-* Customers
-* Orders
-* Products
-* Sales Transactions
-
-##  Key Business Questions Answered
-
-1. Which product categories generate the highest revenue?
-2. Which products contribute most to sales?
-3. What are the monthly revenue trends?
-4. Who are the top customers by revenue?
-5. How does performance vary across categories?
-
-##  SQL Analysis
-
-The project uses SQL to analyze sales, customers, products, revenue, and profitability.
-
-### Queries Performed
-
-1. **Total Revenue** – Calculated revenue from completed orders.
-2. **Revenue by Category** – Compared revenue across product categories.
-3. **Top Customers** – Ranked customers by total spending.
-4. **Monthly Revenue Trend** – Analyzed revenue by month.
-5. **Profit per Product** – Calculated profit for each product using selling price and product cost.
-
-### SQL Techniques Used
-
-* `JOIN` for combining customers, orders, order items, and products
-* `SUM()` for revenue, spending, and profit calculations
-* `GROUP BY` for category, customer, product, and monthly analysis
-* `ORDER BY` for ranking customers by spending
-* `WHERE` for filtering completed orders
-* `DATE_FORMAT()` for monthly revenue analysis
-* Calculated expressions for revenue and profit
-
-The complete SQL queries are available in [`queries.sql`](queries.sql).
-
-##  Power BI Dashboard
-
-The analyzed data was used to build an interactive Power BI dashboard for tracking sales performance and customer behavior.
-
-### Dashboard KPIs
-
-* **Total Revenue:** ₹190.9K
-* **Total Profit:** ₹33.4K
-* **Total Orders:** 5
-* **Average Order Value:** ₹38.2K
-
-### Dashboard Features
-
-* Revenue trend by month
-* Revenue by product category
-* Top products by revenue
-* Top customers by revenue
-* Filters for year, month, category, and city
-
-### Dashboard Preview
+A practical data analytics project using **MySQL, SQL, and Power BI** to analyze e-commerce sales performance, customer spending, product performance, revenue, and profitability.
 
 ![E-Commerce Power BI Dashboard](Dashboard.png)
 
-##  Key Insights
+## Project Overview
+
+This project demonstrates an end-to-end analytics workflow:
+
+1. Create an e-commerce database and relational tables.
+2. Load customer, product, order, and transaction data.
+3. Use SQL to calculate business metrics and answer analytical questions.
+4. Connect the data to Power BI.
+5. Present findings through an interactive dashboard.
+
+## Tools & Technologies
+
+- MySQL
+- SQL
+- Power BI
+- Data analysis and KPI reporting
+
+## Business Questions
+
+- What is the total revenue from completed orders?
+- Which product categories generate the highest revenue?
+- Which customers spend the most?
+- How does revenue change month by month?
+- Which products generate the highest profit?
+
+## Dashboard KPIs
+
+| KPI | Value |
+|---|---:|
+| Total Revenue | ₹190.9K |
+| Total Profit | ₹33.4K |
+| Total Orders | 5 |
+| Average Order Value | ₹38.2K |
+
+## SQL Analysis Performed
+
+### 1. Total Revenue
+
+Calculated revenue from completed orders using:
+
+`quantity × selling price`
+
+### 2. Revenue by Category
+
+Compared revenue across product categories using joins, aggregation, and grouping.
+
+### 3. Top Customers
+
+Ranked customers by total spending on completed orders.
+
+### 4. Monthly Revenue Trend
+
+Grouped completed-order revenue by month using `DATE_FORMAT()`.
+
+### 5. Profit per Product
+
+Calculated product profit using:
+
+`(selling price − product cost) × quantity`
+
+## SQL Techniques Used
+
+- `JOIN`
+- `SUM()`
+- `GROUP BY`
+- `ORDER BY`
+- `WHERE`
+- `DATE_FORMAT()`
+- Calculated expressions
+- Primary keys and foreign keys
+
+## Key Insights
 
 - **Electronics** generated the highest revenue among the product categories.
 - **Laptops and smartphones** were the top-performing products by revenue.
 - **March** recorded the highest monthly revenue in the analyzed period.
 - A **small number of customers** accounted for a significant portion of total revenue.
 
-##  Repository Structure
+These findings are based on the dataset included in this repository.
+
+## Database Structure
+
+The project uses four related tables:
+
+- `customers` — customer details
+- `products` — product details and cost
+- `orders` — order dates, customers, and order status
+- `order_items` — products, quantities, and selling prices
+
+## Repository Structure
 
 ```text
 SQL-Ecommerce-Analysis/
-│
-├── schema.sql
-├── data.sql
-├── queries.sql
-├── Dashboard.png
-└── README.md
-
+├── schema.sql       # Database and table creation
+├── data.sql         # Data loading statements
+├── queries.sql      # SQL analysis queries
+├── Dashboard.png    # Power BI dashboard preview
+└── README.md        # Project documentation
 ```
+
+## How to Run
+
+1. Open MySQL Workbench or another MySQL client.
+2. Run `schema.sql` to create the database and tables.
+3. Run `data.sql` to load the data.
+4. Run the queries in `queries.sql`.
+5. Open the Power BI dashboard preview included in this repository.
+
+## Project Files
+
+- [Database schema](schema.sql)
+- [Data loading script](data.sql)
+- [SQL analysis queries](queries.sql)
+- [Power BI dashboard](Dashboard.png)
+
+## Author
+
+**Avinash Madhu**  
+Data Analyst | Business Analytics
+
+[GitHub Profile](https://github.com/avi206)
